@@ -1,0 +1,165 @@
+*{
+	margin:0;
+	padding: 0;
+}
+#menu{
+	width: 100vw;
+	height: 70px;
+	background-color: black;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+	color: white;
+	font-size:20px;
+	position: fixed;
+	margin-top: -0px;
+	margin-left: -2px;
+}
+
+#logo{
+	display: flex;
+	position: absolute;
+	margin-top: -2px;
+	margin-left: -1140px;
+	font-size: 15px;
+	font-family: algerian;
+}
+#busca{
+	margin-left: 300px;
+}
+#pesquisa{
+	color: white;
+	margin-left: -90px;
+	border-radius: 10px;
+	text-decoration-color: white;
+	
+}
+
+#portal{
+	color: white;
+	font-family: algerian;
+}
+a{
+	text-decoration:none;
+	color: white;
+    font-family: algerian;    
+}
+a:hover{
+	background-color: red;
+	border-radius: 10px;
+	padding: 5px;
+}
+#rimando{
+	color: white;
+	font-size:2px;
+	font-family: Fat Frank,Arial, sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-top: 30px;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 0 10px tomato;
+}
+#banner{
+	width: 98vw;
+	margin-top:70px;
+	border: 3px solid red;
+
+}
+body{
+	background-color: black;
+}
+.slam{
+	color: white;
+}
+
+#dvSlider{
+    width: 850px;
+	border-radius: 30px;
+	margin-top: 200px;
+	margin-left: 10px;
+	height: 520px;
+	background-size: cover;
+	-webkit-transition: 0.5 ease-out;
+	-moz-transition: 0.5s ease-out;
+	-o-transition: 0.5s ease-out;
+	transition: 0.5s ease-out;
+}
+#bt{
+	font-size: 40px;
+	margin-top: 220px;
+	margin-left: -10px;
+}
+#btn{
+	font-size: 40px;
+	margin-top: 220px;
+	margin-left: 700px;
+}
+#link{
+	font-family: Arial;
+}
+
+ .footer-basic {
+  padding:40px 0;
+  background-color: black;
+  color: white;
+   height:100px;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 15px;
+}
+
+.footer-basic ul a {
+  color: white;
+  text-decoration:none;
+  opacity:1.6;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:35px;
+  color: black;
+  opacity:0.75;
+  margin:7px;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:16px;
+  color: green;
+  margin-bottom:0;
+}
+
+img{
+  background-color: transparent;
+}
+.list-inline{
+  display:flex;
+  position:absolute;
+  margin-top:-10px;
+  margin-left:450px;
+}
